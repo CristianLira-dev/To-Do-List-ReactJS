@@ -1,2 +1,8 @@
-# To-Do-List-ReactJS
-To-Do List interativo desenvolvido para dominar os fundamentos do React. Com foco em componentização e estado (useState), permite criar tarefas, marcar como concluídas e acessar detalhes. Um projeto prático que une código limpo, responsividade e boas práticas de UI para iniciar minha jornada com React.js
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
