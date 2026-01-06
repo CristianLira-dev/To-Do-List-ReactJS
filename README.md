@@ -58,7 +58,7 @@ Pré-requisitos: npm
 
 ```bash
 # Clonar o repositório
-git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
+git clone https://github.com/CristianLira-dev/To-Do-List-ReactJS.git
 
 # Entrar no diretório
 cd NOME-DO-REPO
