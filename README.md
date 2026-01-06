@@ -1,7 +1,6 @@
 # 🚀 React To-Do List
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Badge React](https://img.shields.io/static/v1?label=React&message=Framework&color=blue&style=for-the-badge&logo=react)
+![Badge React](https://img.shields.io/static/v1?label=React&style=for-the-badge&logo=react)
 
 > Um gerenciador de tarefas intuitivo e responsivo, desenvolvido para consolidar os fundamentos do React, manipulação de estado e componentização.
 
