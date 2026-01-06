@@ -15,7 +15,7 @@ function TaskPage() {
           <button onClick={() => navigate(-1)} className="absolute left-0">
             <ChevronLeft className="text-white" />
           </button>
-          <h1 className="titulo-details text-white ">Detalhes da Tarefa</h1>
+          <h1 className="title text-white ">Detalhes da Tarefa</h1>
         </div>
         <div className="BgList text-white p-5 space-y-5  rounded-md">
           <h1 className="title-task">{title}</h1>

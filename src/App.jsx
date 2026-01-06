@@ -10,6 +10,21 @@ function App() {
   useEffect(() => {
     localStorage.setItem("listaReact", JSON.stringify(tasks))
   }, [tasks])
+
+  // useEffect(() => {
+  //   const fetchTasks = async () => {
+  //     //chamar a API
+  //     const response = await fetch(
+  //       "https://jsonplaceholder.typicode.com/todos?_limit=10",
+  //       {
+  //         method: "GET",
+  //       }
+  //     );
+  //     const data = await response.json();
+  //     setTasks(data)
+  //   }
+  //   fetchTasks()
+  // }, [])
   
   function onTaskClick(taskId) {
     const newTasks = tasks.map(task => {

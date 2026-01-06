@@ -15,7 +15,7 @@ body {
 
 .title {
   font-family: var(--bold);
-  font-size: var(--f9);
+  font-size: var(--f6);
   margin: 10px 0;
 }
 
@@ -44,8 +44,4 @@ input{
 }
 .description{
   font-size: var(--f4);
-}
-.titulo-details{
-    font-size: var(--f10);
-  font-family: var(--bold);
 }
