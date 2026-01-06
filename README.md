@@ -34,8 +34,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 * **[React](https://reactjs.org/):** Biblioteca principal para construção da UI.
 * **[Vite](https://vitejs.dev/):** Build tool para um ambiente de desenvolvimento rápido.
-* **React-Router:** Para organizar melhor as rotas da aplicação
-* **Lucide-Dev:** Para ícones vetoriais e acessíveis.
+* **[React-Router](https://reactrouter.com/):** Para organizar melhor as rotas da aplicação
+* **[Lucide-Dev](https://lucide.dev/):** Para ícones vetoriais e acessíveis.
 * **Javascript (ES6+):** Lógica estrutural.
 
 ---
