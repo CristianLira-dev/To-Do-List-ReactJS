@@ -1,6 +1,16 @@
 import {  ChevronRightIcon, Check, X } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
-function Tasks({tasks, onTaskClick, onDeleteTask}) {
+
+function Tasks({ tasks, onTaskClick, onDeleteTask }) {
+  const navigate = useNavigate()
+
+  function onSeeDetailsClick(task) {
+    const query = new URLSearchParams()
+    query.set("title", task.title)
+    query.set("description", task.description)
+    navigate(`/task?${query.toString()}`);
+  }
   return (
     <ul  className="BgList space-y-4 mx-3 p-6 rounded-xl">
       {tasks.map((task) => (
@@ -11,7 +21,7 @@ function Tasks({tasks, onTaskClick, onDeleteTask}) {
             {task.isCompleted ? <Check /> : ""}
             {task.title}
           </button>
-          <button title="Ver Detalhes" className="NomeLista text-white bg-blue-700 p-2 rounded-md">
+          <button onClick={() => onSeeDetailsClick(task)} title="Ver Detalhes" className="NomeLista text-white bg-blue-700 p-2 rounded-md">
             <ChevronRightIcon />
           </button>
           <button onClick={() => onDeleteTask(task.id)} title="Excluir Tarefa" className="NomeLista text-white bg-blue-700 p-2 rounded-md">
@@ -21,5 +31,6 @@ function Tasks({tasks, onTaskClick, onDeleteTask}) {
       ))}
     </ul>
   );
+  
   }
 export default Tasks

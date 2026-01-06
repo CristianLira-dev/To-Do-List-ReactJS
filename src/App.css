@@ -16,7 +16,7 @@ body {
 .title {
   font-family: var(--bold);
   font-size: var(--f9);
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .NomeLista{
@@ -37,4 +37,15 @@ input{
   font-family: var(--light);
   background: transparent;
   border: solid 2px var(--cor-azul-claro);
+}
+.title-task{
+  font-size: var(--f6);
+  font-family: var(--semibold);
+}
+.description{
+  font-size: var(--f4);
+}
+.titulo-details{
+    font-size: var(--f10);
+  font-family: var(--bold);
 }

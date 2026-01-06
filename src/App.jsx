@@ -1,29 +1,15 @@
 import AddTask from './components/AddTask'
 import Tasks from './components/Tasks'
 import './App.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 function App() {
- const [tasks, setTasks] = useState([
-   {
-     id: 1,
-     title: "Implementar Tailwind CSS",
-     description: "Configurar o ambiente e criar os primeiros estilos globais.",
-     isCompleted: false,
-   },
-   {
-     id: 2,
-     title: "Estudar State Management",
-     description:
-       "Aprofundar conhecimentos em useState, useEffect e Context API para gerenciar estados complexos.",
-     isCompleted: false,
-   },
-   {
-     id: 3,
-     title: "Revisão de Design",
-     description: "Verificar contraste e acessibilidade das cores.",
-     isCompleted: false,
-   },
- ]);
+ const [tasks, setTasks] = useState(
+   JSON.parse(localStorage.getItem("listaReact")) || []
+ );
+  
+  useEffect(() => {
+    localStorage.setItem("listaReact", JSON.stringify(tasks))
+  }, [tasks])
   
   function onTaskClick(taskId) {
     const newTasks = tasks.map(task => {
