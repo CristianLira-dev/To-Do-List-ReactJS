@@ -61,7 +61,7 @@ Pré-requisitos: npm
 git clone https://github.com/CristianLira-dev/To-Do-List-ReactJS.git
 
 # Entrar no diretório
-cd NOME-DO-REPO
+cd TO-DO-LIST-REACTJS
 
 # Instalar as dependências
 npm install
