@@ -1,6 +1,6 @@
 # 🚀 React To-Do List
 
-![Badge React](https://img.shields.io/static/v1?label=React&style=for-the-badge&logo=react)
+![Badge React](https://img.shields.io/static/v1?label=React&logo=react)
 
 > Um gerenciador de tarefas intuitivo e responsivo, desenvolvido para consolidar os fundamentos do React, manipulação de estado e componentização.
 
